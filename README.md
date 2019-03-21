@@ -99,7 +99,7 @@ Java concurrency 예제
 	- [GrumpyBoundBuffer.java](src/main/java/net/jcip/examples/GrumpyBoundBuffer.java) : 바쁜 대기
 	- [SleepyBoundBuffer.java](src/main/java/net/jcip/examples/SleepyBoundBuffer.java) : Sleep을 이용해서 바쁜 대기를 약간 없앰
 	- [BoundedBuffer.java](src/main/java/net/jcip/examples/BoundedBuffer.java) : wait, notify를 이용
-	- [ConditionBoundBuffer.java](src/main/java/net/jcip/examples/ConditionBoundBuffer.java) : Lock클래스를 이용
+	- [ConditionBoundBuffer.java](src/main/java/net/jcip/examples/ConditionBoundedBuffer.java) : Lock클래스를 이용
 - 늦은 초기화
 	- [Initialization.java](src/main/java/ej2/item71/Initialization.java) : lazy initialization의 여러 방식을 보여줌
 	- [MySystem.java(Single)](src/main/java/jdm/appendixa/single/MySystem.java) : 초기화 메서드 전체에 동기화가 걸림.
