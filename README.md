@@ -96,7 +96,7 @@ Java concurrency 예제
 - 바쁜 대기 없애기
 	- [SlowCountDownLatch.java](src/main/java/ej2/item72/SlowCountDownLatch.java) : CountDownLatch를 무식하게 구현.
 	- [BaseBoundBuffer.java](src/main/java/net/jcip/examples/BaseBoundedBuffer.java) : 크기가 한정된 Buffer의 기본 구현.
-	- [GrumpyBoundBuffer.java](src/main/java/net/jcip/examples/GrumpyBoundBuffer.java) : 바쁜 대기
+	- [GrumpyBoundBuffer.java](src/main/java/net/jcip/examples/GrumpyBoundedBuffer.java) : 바쁜 대기
 	- [SleepyBoundBuffer.java](src/main/java/net/jcip/examples/SleepyBoundBuffer.java) : Sleep을 이용해서 바쁜 대기를 약간 없앰
 	- [BoundedBuffer.java](src/main/java/net/jcip/examples/BoundedBuffer.java) : wait, notify를 이용
 	- [ConditionBoundBuffer.java](src/main/java/net/jcip/examples/ConditionBoundedBuffer.java) : Lock클래스를 이용
