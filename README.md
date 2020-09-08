@@ -106,3 +106,15 @@ Java concurrency 예제
 	- [MySystem.java(Double Checked)](src/main/java/jdm/appendixa/doublechecked/MySystem.java) : doublechecked lock을 적용
 	- [MySystem.java(Holder)](src/main/java/jdm/appendixa/holder/MySystem.java) : Holder패턴을 적용할려는 예정으로 있는 클래스
 	- [ColorPoint.java](src/main/java/jpz/puzzle51/ColorPoint.java) : final필드에 값이 할당되기 전에도 읽는 것이 가능하고, 늦은 초기화가 필요한 경우를 보여줌.
+	
+	
+-------
+
+## 참고 자료
+
+* Effective Java 2nd Edition - Chaptor 10
+* Java concurrency in practice
+* Java로 배우는 디자인 패턴 입문 멀티쓰레드편
+* Thinking in java 4th edition - 17장 컨테이너 깊이 들어야보기, 21장 동시성
+* Agile java - Lesson 13 Multithreading
+* 프로그래밍 면접, 이렇게 준비한다. - Ch8 동시성
